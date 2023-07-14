@@ -11,7 +11,7 @@
 	<groupId>com.springboot.blog</groupId>
 	<artifactId>springboot-blog-rest-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-blog-rest-api</name>
+	<name>springboot3-blog-rest-api</name>
 	<description>Spring Boot Blog Application Rest Api&apos;s</description>
 	<properties>
 		<java.version>17</java.version>
@@ -56,6 +56,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 	</dependencies>
 
